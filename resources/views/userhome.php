@@ -13,16 +13,28 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+
+        <style type="text/css">
+            #page
+            {
+                padding: 0;
+                margin: 0;
+            }
+
+            
+        </style>
     </head>
     <body>
-        <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
+         <div id="page">
+        	<div class="header">
+        		<a href="" class="logo"></a>
+                <input type="text" name="searchBook"  value="Search Books" />
+                <input type="button" name="subscribe"  value="Subscribe" />
+                <span>User Name</span>
+                <a href="#"><img src="" alt="user image" /></a>
+                <a href='#'><img src="" alt="notification" /></a>
+                <a href='#'><img src="" alt="profile settings" /></a>
 
-        <!-- Add your site or application content here -->
-        <div id="page">
-        	<div id="header">
-        		<a href=""></a>
         		
         	</div>
         	<div id="content">
@@ -34,17 +46,6 @@
         		</div>
         	</div>
         </div>
-        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-        <script>
-            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
-        </script>
-        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+      
     </body>
 </html>
